@@ -22,3 +22,12 @@ $age = 25; // yaş (sene)
  * 
  * Ekrana 1326.5 yazması gerekiyor.
  */
+if ($sex == "male") {
+  
+  echo ((10 * $weight) + (6.25 * $height) - (5 * $age) + 5);
+  
+} else {
+  
+  echo ((10 * $weight) + (6.25 * $height) - (5 * $age) - 161);
+  
+}
